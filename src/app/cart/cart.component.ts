@@ -25,10 +25,10 @@ export class CartComponent {
   }
 
   // serviço
-  delFromCart(items) {
+  delFromCart(item) {
     //window.alert(items)
-    //window.alert('Your product has been deleted to the cart!');
-    this.cartService.delFromCart(items);
+    window.alert('Your product has been deleted to the cart!');
+    this.cartService.delFromCart(item);
   }
 
   onSubmit(customerData) {
